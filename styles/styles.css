@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+                                                               
+                                                                      /* body */
+body {
+    font-family: "Azeret Mono", monospace;
+}
+body>p {
+    line-height: 1.5;
+    font-size: 20px;
+}
+
+                                                                      /* header */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+    flex-direction: row;
+    align-items: center;
+}
+h1 {
+    font-size: 45px;
+}
+.btn-one {
+    margin-top: 30px;
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.banner {
+    width: 1440px;
+    height: 652px;
+    background-image: url(../assets/Hero-bg.png);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.banner-image {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.header-container {
+    display: block;
+    justify-content: center;
+    height: 582px;
+    width: 998px;
+    margin-left: 221px;
+    margin-right: 221px;
+    text-justify:auto;
+}
+.head-greeting {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    text-align: center;
+}
+.greeting-text {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.btn-two {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 395px;
+    margin-left: 395px;
+    height: 50px;
+    width: 220px;
+    font-size: 20px;
+    text-align:center;
+    vertical-align: middle;
+}
+
+                                                                     /* main section */
+                                                               /* section one: development */
+.development {
+    width: 1140px;
+    height: 1393px;
+    background-color: #fafafb;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 100px;
+}
+.dev-head {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    align-items: center;
+    margin-bottom: 0px;
+    font-size: 32px;
+}
+.head-description {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    font-size: 16px;
+}
+.dev-part-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 150px;
+    background-color: whitesmoke;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+.part-one-text {
+    height: 140px;
+    width: 477px;
+}
+.part-one-text>h4{
+    font-size: 24px;
+}
+.btn-three {
+    height: fit-content;
+    padding: 10px 10px 10px 10px;
+}
+.dev-part-two {
+    display: flex;
+    justify-content: space-evenly ;
+    margin-top: 120px;
+    background-color: whitesmoke;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+.part-two-text {
+    height: 140px;
+    width: 477px;
+}
+.part-two-text>h4 {
+    font-size: 24px;
+}
+.btn-four {
+    height: fit-content;
+    padding: 10px 10px 10px 10px;
+}
+.dev-part-three {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 120px;
+    background-color: whitesmoke;
+    margin-left: 95px;
+    margin-right: 95px;
+}
+.part-three-text {
+    height: 140px;
+    width: 477px;
+}
+.part-three-text>h4{
+    font-size: 24px;
+}
+.btn-five {
+    height: fit-content;
+    padding: 10px 10px 10px 10px;
+}
+                                                    /* section-two: Inspiration */
+
+.inspiration {
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 700px;
+    width: 1140px;
+}
+.ins-head {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+.ins-head-text {
+display: flex;
+justify-content: center;
+font-size: 16px;
+width: 852px;
+height: 52px;
+text-align: center;
+margin-left: 150px;
+margin-right: 150px;
+}
+.iframe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    height: 550px;
+    width: 1140px;
+}
+                                              /* section-three: Target */
+.target {
+    height: 1437px;
+    width: 1140px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.target-head {
+    display: flex;
+    justify-content: center;
+}
+.target-head-text {
+    display: flex;
+    justify-content: center;
+}
+                                                      /* target's part */
+.target-part {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+    margin-top: 100px;
+}
+.target-head {
+    font-size: 32px;
+}
+.target-head-text {
+    display: flex;
+justify-content: center;
+font-size: 16px;
+width: 852px;
+height: 52px;
+text-align: center;
+margin-left: 150px;
+margin-right: 150px;
+}
+.HTML {
+    background-color: #fdf6f4;
+    height: 300px;
+    width: 365px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+.CSS {
+    background-color: #f2f6fe;
+    height: 300px;
+    width: 365px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.JavaScript {
+    background-color: #fefdf2;
+    height: 300px;
+    width: 365px;
+    padding-left: 30px;
+    padding-top: 30px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+                                                     /* next target */
+.target-next {
+ display: block;
+ margin-top: 100px;
+ width: 1140px; 
+ height: 866px;
+}
+.target-next-head {
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+}
+.target-next-text {
+    display: flex;
+justify-content: center;
+font-size: 16px;
+width: 852px;
+height: 52px;
+text-align: center;
+margin-left: 150px;
+margin-right: 150px;
+}
+.ReactJS {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.react-logo {
+    justify-content: center;
+    vertical-align: bottom;
+}
+.react-content {
+    margin-left: 30px;
+}
+.NodeJS {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.node-logo {
+    justify-content: center;
+    vertical-align: bottom;
+}
+.node-content {
+    margin-left: 30px;
+}
+.MongoDB {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mongo-logo {
+    justify-content: center;
+    vertical-align: bottom;
+}
+.mongo-content {
+    margin-left: 30px;
+}
+                                                       /* support section */
+.support {
+    background-image: url(../assets/handshake.jpg);
+    background-position: center;
+    height: 313px;
+    width: 1140px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+.support-head {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 32px;
+}
+.support-head-text {
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-bottom: 50px;
+}
+.support-form {
+    display: flex;
+    justify-content: center;
+}
+.input-form {
+    width: 548px; 
+    height: 45px;
+    margin-right: 30px;
+}
+.support-btn {
+    width: 120px;
+    height: 50px;
+}
+                                                       /* footer */
+
+.footer {
+    height: 100px;
+    width: 1440px;
+    margin-left: 150px;
+    margin-right: 350px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 36px;
+    width: 1140px;
+    padding: 15px 15px 15px 15px;
+}
+.text {
+    font-size: 20px;
+}
